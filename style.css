@@ -7,6 +7,10 @@
 
 }
 
+img {
+    width: 100%;
+}
+
 /* Common styles starts */
 
 .container {
@@ -153,4 +157,66 @@ ul li a {
 .hero-btn {
     margin: auto;
     padding-top: 200px;
+}
+
+/* hero style ends here */
+
+/* meet the speakers */
+
+
+.meet-parent {
+    padding: 80px 0;
+}
+
+.meet-title {
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64.4px;
+    text-align: center;
+    padding-bottom: 56px;
+}
+
+.category {
+    font-size: 12px;
+    line-height: 18px;
+    color: #1D4ED8;
+    font-weight: 600;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #0d1b2aFF;
+
+}
+
+.designation {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #575757FF;
+}
+
+.card {
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+
+.card-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-img {
+    border-radius: 12px 12px 0 0;
+}
+
+.card-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 36px 33px;
 }

@@ -101,3 +101,56 @@ ul li a {
     font-weight: 300px;
 
 }
+
+/* footer ends here */
+
+/* Hero Style */
+
+.hero-root {
+    height: 100vh;
+
+    /* got the grad properties from penpot & use gpt to find out how to use multiple grad and bg image */
+    display: flex;
+    background:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0) 41.74%, rgba(0, 0, 0, 0.88) 87.44%),
+        url('./assets/banner.jpg');
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overlay: .60 black;
+
+}
+
+.hero-parent {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+}
+
+.hero-title h1 {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 80px;
+    text-align: center;
+    padding-bottom: 40px;
+    color: white;
+
+}
+
+.hero-title p {
+    font-size: 22px;
+    line-height: 34px;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    color: white;
+
+}
+
+.hero-btn {
+    margin: auto;
+    padding-top: 200px;
+}

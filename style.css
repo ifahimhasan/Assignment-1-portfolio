@@ -419,3 +419,145 @@ img {
     color: #2563EB;
 
 }
+
+/* location style starts here */
+
+.location-parent {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 88px;
+    justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+}
+
+.location-right {
+
+    flex: 1;
+    align-content: center;
+}
+
+.location-left {
+    flex: 1;
+}
+
+.location-img {
+    border-radius: 12px;
+    height: 550px;
+    /* width: 500px; */
+    object-fit: cover;
+    /* object-position: middle; */
+}
+
+.loc-content h2 {
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 800px;
+    color: #0D1B2A;
+    padding-bottom: 20px;
+
+}
+
+.loc-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 50px;
+    color: #575757;
+    width: 70%;
+}
+
+.loc {
+    background-color: #F8FAFC;
+    padding: 80px 0;
+}
+
+.icon-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon-box-1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-box-2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-box-3 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-box-4 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-box-5 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon-cont {
+    background-color: #cae0fec7;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.icon {
+    color: #1D4ED8;
+}
+
+.icon-title {
+    color: #90A1B9;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+
+}
+
+.icon-des {
+    color: #0A0F1A;
+    /* text-transform: uppercase; */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.icon-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: left;
+    justify-content: center;
+}
+
+.loc-btn {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+.outline-btn-loc {
+    padding: 12px 28px;
+    background-color: white;
+    border: 1px solid #1D4ED8;
+    border-radius: 10px;
+    color: #1D4ED8;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+    cursor: pointer;
+
+}
